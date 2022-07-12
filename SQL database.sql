@@ -14,4 +14,6 @@ create prod sp_insertar_usuario(
 as
 begin
 insert into Usuarios(nombre,apellido,edad,email) values (@nombre,@apellido,@edad,@email)
+select * from Usuarios
 end
+
